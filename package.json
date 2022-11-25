@@ -1,0 +1,44 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "0.1.6",
+    "@react-navigation/bottom-tabs": "^5.4.4",
+    "@react-navigation/native": "^5.3.2",
+    "@react-navigation/stack": "^5.3.5",
+    "@react-native-async-storage/async-storage": "~1.15.0",
+
+    "apisauce": "^1.1.1",
+    "expo": "^47.0.0",
+    "expo-constants": "~14.0.2",
+    "expo-image-picker": "~14.0.2",
+    "expo-location": "~15.0.1",
+    "expo-permissions": "~14.0.0",
+    "expo-status-bar": "~1.4.2",
+    "formik": "^2.1.4",
+    "lottie-react-native": "5.1.4",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-native": "0.70.5",
+    "react-native-gesture-handler": "~2.8.0",
+    "react-native-progress": "^4.1.2",
+    "react-native-reanimated": "~2.12.0",
+    "react-native-safe-area-context": "4.4.1",
+    "react-native-screens": "~3.18.0",
+    "react-native-tags": "2.2.1",
+    "react-native-web": "~0.18.7",
+    "yup": "^0.28.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@expo/webpack-config": "^0.17.2",
+    "babel-preset-expo": "~9.2.1"
+  },
+  "private": true
+}
